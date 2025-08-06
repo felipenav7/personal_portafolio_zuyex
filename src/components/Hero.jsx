@@ -5,23 +5,35 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen flex items-start 
+      className="flex items-start 
         justify-center relative overflow-hidden"
     >
       {/* Background pattern */}
       <div
         className="absolute inset-0 bg-gradient-to-br from-gray-900
-            via-purple-900/20 to-cyan-900/20"
-      >
-        <div
-          className="absolute inset-0 bg-[url('data:image/svg+xml,%3Csvg width=%2260%22
-         height=%2260%22 viewBox=%220 0 60 60%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg fill=%22none%22 fill-rule=%22evenodd%22%3E%3Cg 
-         fill=%22%23a855f7%22 fill-opacity=%220.05%22%3E%3Ccircle cx=%2260%22 cy=%2260%22
-          r=%221%22/%3E%3C/g%3E%3C/g%3E%3C/svg%3E')] opacity-40"
-        ></div>
+            via-purple-900/50 to-cyan-900/60"
+      ></div>
+
+      {/* Animacion Background */}
+      <div className="absolute inset-0">
+        {/* Lineas de codigo flotantes */}
+        <div className="absolute top-20 left-10 opacity-30">
+          <div className="animate-pulse text-cyan-400 font-mono text-2xl">
+            <div className="animate-[slideRight_8s_ease-in-out_infinite] mb-2">
+              {'<div className="hero">'}
+            </div>
+            <div className="animate-[slideRight_8s_ease-in-out_infinite_1s] mb-2 ml-4">
+              {'const dev = "awesome";'}
+            </div>
+            <div className="animate-[slideRight_8s_ease-in-out_infinite_2s]">
+              {"</div>"}
+            </div>
+          </div>
+        </div>
       </div>
 
-      <div className="relative mt-10 z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      {/* Avatar */}
+      <div className="relative mt-10 mb-2 z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="mb-8">
           <div className="w-32 h-32 mx-auto mb-6 relative">
             <div className="w-full h-full bg-gradient-to-r from-cyan-500 via-purple-500 to-red-500 rounded-full p-1 animate-pulse">
@@ -40,7 +52,7 @@ const Hero = () => {
             className="bg-gradient-to-r from-cyan-400 via-purple-400 to-red-400 
             bg-clip-text text-transparent"
           >
-            Zuyexgamer
+            ZuyexGamer
           </span>
         </h1>
 
@@ -98,8 +110,8 @@ const Hero = () => {
 
         {/* Scroll Indicator */}
         <a
-          href="#contact"
-          className="absolute bottom-0 left-1/2 transform -translate-x-1/2 animate-bounce cursor-pointer"
+          href="#about"
+          className="absolute bottom-0 left-1/2 transform -translate-x-1/2 animate-bounce cursor-pointer mb-2"
         >
           <ChevronDown className="h-8 w-8 text-cyan-400" />
         </a>
