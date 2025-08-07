@@ -5,13 +5,113 @@ html {
 }
 
 @keyframes slideRight {
-  0%,
-  100% {
-    transform: translateX(-20px);
-    opacity: 0.3;
+  0% {
+    transform: translateX(0);
+    opacity: 1;
   }
   50% {
+    transform: translateX(-40px);
+    opacity: 0.5;
+  }
+  100% {
     transform: translateX(0);
-    opacity: 0.8;
+    opacity: 1;
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(40px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  50% {
+    transform: translateY(40px);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Animación para los rayos de luz que caen */
+@keyframes lightRayY {
+  0%,
+  100% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateY(100%);
+    opacity: 1;
+  }
+}
+
+@keyframes lightRayX {
+  0%,
+  100% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translateX(100%);
+    opacity: 1;
+  }
+}
+
+@keyframes lightRayDiagonal {
+  0%,
+  100% {
+    transform: translate(-100%, -100%);
+    opacity: 0;
+  }
+  50% {
+    transform: translate(100%, 100%);
+    opacity: 1;
+  }
+}
+
+/* Animación para el movimiento flotante de los orbes */
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-20px) scale(1.1);
+  }
+}
+
+/* Animación para las líneas de la cuadrícula (horizontales) */
+@keyframes gridLine {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+    opacity: 0;
+  }
+  50% {
+    transform: scaleX(1);
+    transform-origin: left;
+    opacity: 1;
+  }
+  100% {
+    transform: scaleX(0);
+    transform-origin: right;
+    opacity: 0;
   }
 }
