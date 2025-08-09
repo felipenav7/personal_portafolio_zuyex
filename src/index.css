@@ -19,6 +19,20 @@ html {
   }
 }
 
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animate-fadeInRight {
+  animation: fadeInRight 0.5s ease-out;
+}
+
 @keyframes slideLeft {
   0% {
     transform: translateX(0);
