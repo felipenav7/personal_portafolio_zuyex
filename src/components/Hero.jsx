@@ -14,7 +14,7 @@ const Hero = () => {
       {/* Nuevo fondo central circular con degradado */}
       {/* Se ajustó la posición del círculo de forma absoluta para bajarlo */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute left-1/2 top-[30%] -translate-x-1/2 -translate-y-1/2 w-1/3 h-1/2 rounded-full bg-gradient-to-r from-cyan-500 to-purple-500 blur-3xl opacity-20 transform scale-125"></div>
+        <div className="absolute left-1/2 top-[30%] -translate-x-1/2 -translate-y-1/2 w-2xl h-80 rounded-full bg-gradient-to-r from-cyan-500 to-purple-500 blur-3xl opacity-20 transform scale-125"></div>
       </div>
 
       {/* Animacion Background */}
