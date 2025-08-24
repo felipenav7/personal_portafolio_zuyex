@@ -1,6 +1,6 @@
 import Html5Logo from "./Html5Logo";
 import CssLogo from "./CssLogo";
-import JavascriptLogo from "./JavascriptLogo";
+import JavaScriptLogo from "./JavaScriptLogo";
 import ReactLogo from "./ReactLogo";
 import BootstrapLogo from "./BootstrapLogo";
 import TailwindCSSLogo from "./TailwindCssLogo";
@@ -27,7 +27,7 @@ import FigmaLogo from "./FigmaLogo";
 export {
   Html5Logo,
   CssLogo,
-  JavascriptLogo,
+  JavaScriptLogo,
   ReactLogo,
   BootstrapLogo,
   TailwindCSSLogo,

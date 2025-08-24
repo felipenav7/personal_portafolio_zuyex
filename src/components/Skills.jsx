@@ -4,7 +4,7 @@ import clsx from "clsx";
 import {
   Html5Logo,
   CssLogo,
-  JavascriptLogo,
+  JavaScriptLogo,
   ReactLogo,
   BootstrapLogo,
   TailwindCSSLogo,
@@ -105,7 +105,7 @@ const Skills = () => {
       skills: [
         { name: "HTML5", icon: Html5Logo, color: "text-orange-600" },
         { name: "CSS", icon: CssLogo, color: "text-blue-500" },
-        { name: "JavaScript", icon: JavascriptLogo, color: "text-yellow-400" },
+        { name: "JavaScript", icon: JavaScriptLogo, color: "text-yellow-400" },
         { name: "React", icon: ReactLogo, color: "text-cyan-400" },
         { name: "Bootstrap", icon: BootstrapLogo, color: "text-purple-600" },
         { name: "Tailwind CSS", icon: TailwindCSSLogo, color: "text-cyan-500" },
