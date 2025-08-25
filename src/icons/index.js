@@ -12,7 +12,7 @@ import AndroidLogo from "./AndroidLogo";
 import FlutterLogo from "./FlutterLogo";
 import JavaLogo from "./JavaLogo";
 import KotlinLogo from "./KotlinLogo";
-import AWSLogo from "./AwsLogo";
+import AWSLogo from "./AWSLogo";
 import GitLogo from "./GitLogo";
 import GitHubLogo from "./GitHubLogo";
 import LinuxLogo from "./LinuxLogo";
